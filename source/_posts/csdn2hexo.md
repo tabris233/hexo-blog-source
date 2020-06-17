@@ -41,7 +41,7 @@ tags:
 
 ## 渲染问题
 
-之前的文件中存在`}}`这样的字符,`hexo`渲染的时候就会出现报错
+之前的文件中存在`} }`这样的字符,`hexo`渲染的时候就会出现报错
 
 ```shell
 FATAL Something's wrong. Maybe you can find the solution here: http://hexo.io/docs/troubleshooting.html

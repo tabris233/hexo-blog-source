@@ -99,7 +99,7 @@ cover:
   display:
     home: true
     archive: true
-    others: true # can be written in front-matter 'cover: true'
+    others: false # can be written in front-matter 'cover: true'
   logo: # https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/256/google_logo.png
   title: tabris blog
   subtitle: 'A Low blog'

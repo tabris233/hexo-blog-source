@@ -191,7 +191,7 @@ edcba
 
 输出一行 '-'
 ```Python
-'{:-{align}{width}}'.format( '',align='>', width = 5)
+'{:-{align}{width} }'.format( '',align='>', width = 5)
 ```
 输出
 ```

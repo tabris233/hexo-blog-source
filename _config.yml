@@ -15,7 +15,7 @@ avatar: https://cdn.jsdelivr.net/gh/tabris233/cdn-assets/avatar/avatar.jpg
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://tabris.top
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 pretty_urls:
   trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
@@ -54,7 +54,7 @@ future: false
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace: '    '
   wrap: true
   hljs: false
@@ -197,7 +197,7 @@ sitemap:
 # 图片懒加载  # hexo-lazyload-image    hexo-fs
 lazyload:
   enable: true
-  onlypost: true
+  onlypost: false
   loadingImg: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg
 
 # npm install hexo-all-minifier --save # TODO
@@ -207,8 +207,7 @@ all_minifier: true
 nofollow:
   enable: true
   exclude:
-  - xaoxuu.com
-  - volantis.js.org
+  - tabris.top
 
 # autoprefixer
 autoprefixer:
@@ -247,5 +246,3 @@ marked:
     enable: true
     exclude: []
     nofollow: true
-
-use_cdn: true
